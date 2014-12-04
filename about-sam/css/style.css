@@ -3,6 +3,7 @@ body {
   color: white;
 
   /* Full Page Background Receipe */
+  background: url('../images/daft-sam.gif');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -20,12 +21,12 @@ h2 {
 .container {
   width: 500px;
   margin: 40px;
-  background: black;
+  background: rgba(0,0,0,0.5);
   padding: 15px;
 }
 
 a {
-  color: green;
+  color: #BFE35B;
   text-decoration: none;
 }
 

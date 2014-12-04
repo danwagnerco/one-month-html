@@ -1,5 +1,6 @@
 body {
   line-height: 1.5;
+  color: white;
 
   /* Full Page Background Receipe */
   background-size: cover;
@@ -7,7 +8,24 @@ body {
   background-attachment: fixed;
 }
 
+h1 {
+  font-size: 80px;
+  margin-bottom: -50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
 .container {
   width: 500px;
   margin: 40px;
+  background: black;
+  padding: 15px;
 }
+
+a {
+  color: green;
+  text-decoration: none;
+}
+

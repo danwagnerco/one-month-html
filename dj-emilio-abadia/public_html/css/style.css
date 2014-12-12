@@ -41,8 +41,12 @@ h2 {
 .vid {
   margin-top: 5px;
   width: 640px;
-  margin-left: 59px;
+  margin-left: 60px;
   /* padding: 17px; */
+}
+
+.fb-like {
+  margin-left: 60px;
 }
 
 a {

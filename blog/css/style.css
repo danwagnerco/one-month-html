@@ -17,6 +17,10 @@ Developed @ One Month in NYC
      box-sizing: border-box; /* IE */
 }
 
+img {
+  float: right;
+}
+
 /* Clear Class */
 .clear {
 	clear: both;
@@ -41,10 +45,15 @@ Developed @ One Month in NYC
 #main {
   background: SkyBlue;
   padding: 50px;
+  width: 700px;
+  float: left;
 }
 
 #sidebar {
-  /* we'll populate this next */
+  background: Pink;
+  width: 300px;
+  float: left;
+  padding: 50px;
 }
 
 #footer {

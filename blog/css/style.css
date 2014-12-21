@@ -17,16 +17,20 @@ Developed @ One Month in NYC
      box-sizing: border-box; /* IE */
 }
 
-img {
-  float: right;
-}
-
 /* Clear Class */
 .clear {
-	clear: both;
+  clear: both;
 }
 
+.alignleft {
+  float: left;
+  margin: 0 15px 15px 0;
+}
 
+.alignright {
+  float: right;
+  margin: 0 0 15px 15px;
+}
 
 /*----------------------------------------------------------------------------- 
 =02 LAYOUT 

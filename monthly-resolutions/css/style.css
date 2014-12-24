@@ -4,7 +4,6 @@ Client: One Month
 Author: Christopher Castig | @castig
 */
 
-
 /*----------------------------------------------------------------------------- 
 01=BASE   
 -----------------------------------------------------------------------------*/
@@ -25,8 +24,9 @@ Author: Christopher Castig | @castig
 -----------------------------------------------------------------------------*/
 
 #container {
-  width: 1000px;
+  width: 950px;
   margin: 0 auto;
+  /* background: pink; */
 }
 
 #header {
@@ -38,6 +38,16 @@ Author: Christopher Castig | @castig
   background: white;
   width: 600px;
   padding: 25px;
+  float: left;
+}
+
+#sidebar {
+  background: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 330px;
+  padding: 25px;
+  float: left;
 }
 
 /*----------------------------------------------------------------------------- 
@@ -76,4 +86,27 @@ hr {
 .one-month-link {
   color: #e23828;
   text-decoration: none;
+}
+
+.padded-list {
+  padding: 2px;
+}
+
+.about-me-title {
+  margin-top: 50px;
+}
+
+.blockquote {
+  border-left: 5px solid #ccc;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-style: italic;
+  font-size: 16px;
+  color: gray;
+  line-height: 1.6em;
+}
+
+.round-picture-border {
+  border-radius: 50%;
 }

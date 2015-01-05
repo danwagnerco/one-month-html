@@ -1,11 +1,11 @@
-/* 
+/*
 Project Name: Monthly Resolutions
 Client: One Month
 Author: Christopher Castig | @castig
 */
 
-/*----------------------------------------------------------------------------- 
-01=BASE   
+/*-----------------------------------------------------------------------------
+01=BASE
 -----------------------------------------------------------------------------*/
 
 /* Box Model Hack */
@@ -19,19 +19,14 @@ Author: Christopher Castig | @castig
   clear: both;
 }
 
-/*----------------------------------------------------------------------------- 
-02=LAYOUT  
+/*-----------------------------------------------------------------------------
+02=LAYOUT
 -----------------------------------------------------------------------------*/
 
 #container {
   width: 950px;
   margin: 0 auto;
   /* background: pink; */
-}
-
-#header {
-  /* background: Silver; */
-  /* padding: 50px; */
 }
 
 #main {
@@ -50,8 +45,8 @@ Author: Christopher Castig | @castig
   float: left;
 }
 
-/*----------------------------------------------------------------------------- 
-03=MAIN  
+/*-----------------------------------------------------------------------------
+03=MAIN
 -----------------------------------------------------------------------------*/
 
 body {
@@ -61,10 +56,18 @@ body {
   background-attachment: fixed;
   font-family: 'Lato', sans-serif;
   padding: 50px;
+
+  /* Review recommendations */
+  font-size: 100%;
 }
 
 hr {
   border-color: #d3d3d3;
+}
+
+/* Review recommendations */
+h1 {
+  letter-spacing: -5px;
 }
 
 .page-title {

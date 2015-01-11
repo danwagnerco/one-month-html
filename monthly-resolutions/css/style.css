@@ -70,14 +70,18 @@ h1 {
   letter-spacing: -5px;
 }
 
+h2 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
 .page-title {
   font-size: 48px;
   margin-bottom: -32px;
-}
-
-.post-title {
-  font-size: 32px;
-  margin-bottom: 6px;
 }
 
 .post-signature {
@@ -93,10 +97,6 @@ h1 {
 
 .padded-list {
   padding: 2px;
-}
-
-.about-me-title {
-  margin-top: 50px;
 }
 
 .blockquote {

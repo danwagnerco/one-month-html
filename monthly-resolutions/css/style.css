@@ -19,54 +19,16 @@ Author: Christopher Castig | @castig
   clear: both;
 }
 
-/*-----------------------------------------------------------------------------
-02=LAYOUT
------------------------------------------------------------------------------*/
-
-#container {
-  width: 950px;
-  margin: 0 auto;
-  /* background: pink; */
-}
-
-#main {
-  background: white;
-  width: 600px;
-  padding: 25px;
-  float: left;
-}
-
-#sidebar {
-  background: white;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 330px;
-  padding: 25px;
-  float: left;
-}
-
-/*-----------------------------------------------------------------------------
-03=MAIN
------------------------------------------------------------------------------*/
-
 body {
   background: url('../images/notebook.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   font-family: 'Lato', sans-serif;
-  padding: 50px;
-
-  /* Review recommendations */
+  line-height: 1.7;
   font-size: 100%;
+  /* padding: 50px; */
 }
 
-hr {
-  border-color: #d3d3d3;
-}
-
-/* Review recommendations */
 h1 {
+  font-size: 48px;
   letter-spacing: -5px;
 }
 
@@ -79,37 +41,97 @@ h3 {
   margin-top: 50px;
 }
 
-.page-title {
-  font-size: 48px;
-  margin-bottom: -32px;
-}
-
-.post-signature {
-  color: gray;
-  margin-bottom: 60px;
-  font-size: 14px;
-}
-
-.one-month-link {
-  color: #e23828;
-  text-decoration: none;
-}
-
-.padded-list {
-  padding: 2px;
-}
-
-.blockquote {
-  border-left: 5px solid #ccc;
+blockquote {
+  border-left: 5px #BBB solid;
   padding-left: 10px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  margin-left: 0;
   font-style: italic;
   font-size: 16px;
-  color: gray;
-  line-height: 1.6em;
+  /* background: pink; */
 }
 
-.round-picture-border {
-  border-radius: 50%;
+a {
+  color: #ff3300;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*-----------------------------------------------------------------------------
+02=LAYOUT
+-----------------------------------------------------------------------------*/
+
+.container {
+  width: 950px;
+  margin: 0 auto 0 auto;
+  /* background: pink; */
+}
+
+.main {
+  background: white;
+  width: 600px;
+  padding: 25px;
+  float: left;
+  font-size: 12px;
+}
+
+.sidebar {
+  background: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 330px;
+  padding: 25px;
+  float: left;
+}
+  .sidebar img {
+    border-radius: 50%;
+  }
+
+/*-----------------------------------------------------------------------------
+03=MAIN
+-----------------------------------------------------------------------------*/
+
+.post {
+  margin-bottom: 50px;
+}
+
+.tagline {
+  margin-top: -45px;
+  margin-bottom: 30px;
+}
+
+.post-meta {
+  color: gray;
+  padding: 10px 0px;
+  font-size: 12px;
+  border-top: 1px #BBB solid;
+}
+
+.widget {
+  margin-bottom: 45px;
+  /* background: orange; */
+}
+
+/*-----------------------------------------------------------------------------
+04=NAV
+-----------------------------------------------------------------------------*/
+
+.nav-container {
+  background: #ff3300;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: white;
+  margin: 16px;
+  padding: 16px;
+  display: block;
 }

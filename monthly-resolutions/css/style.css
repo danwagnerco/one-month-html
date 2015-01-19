@@ -135,3 +135,8 @@ nav ul li a {
   padding: 16px;
   display: block;
 }
+
+nav ul li a:hover {
+  color: black;
+  transition: color 0.3s ease-in;
+}

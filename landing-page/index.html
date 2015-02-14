@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Chris Castiglione, and the One Month team">
+    <title>What I Learned: One Month HTML</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- NAVBAR ========== -->
+    <div class="navbar navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">&lt;/&gt; What I Learned: One Month HTML</a>
+        </div><!-- .navbar-header -->
+        <div class="navbar-collapse navbar-right collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#EmailMe">Email Me</a></li>
+            <li><a href="#Twitter">Twitter</a></li>
+          </ul>
+        </div><!-- .navbar-collapse -->
+      </div><!-- .container -->
+    </div><!-- .navbar navbar-fixed-top -->
+
+    <!-- CAROUSEL ========== -->
+    <div class="container">
+      <div id="carousel-one-month" class="carousel slide" data-ride"carousel" data-interval="3000">
+
+        <!-- CAROUSEL Indicators -->
+        <!-- NOTE: all data-target attributes should match the div id from above -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-one-month" data-slide-to="0" class="active">
+          <li data-target="#carousel-one-month" data-slide-to="1">
+          <li data-target="#carousel-one-month" data-slide-to="2">
+        </ol>
+
+        <!-- CAROUSEL Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="images/beach.jpg" alt="Beach">
+            <div class="carousel-caption">
+              <h3>HTML is my Beach House</h3>
+            </div><!-- .carousel-caption -->
+          </div><!-- .item -->
+          <div class="item">
+            <img src="images/birds.jpg" alt="Birds">
+            <div class="carousel-caption">
+              <h3>CSS is my birds</h3>
+            </div><!-- .carousel-caption -->
+          </div><!-- .item -->
+          <div class="item">
+            <img src="images/tea.jpg" alt="Tea">
+            <div class="carousel-caption">
+              <h3>Javascript is my tea</h3>
+            </div><!-- .carousel-caption -->
+          </div><!-- .item -->
+        </div><!-- .carousel-inner -->
+
+        <!-- CAROUSEL Controls -->
+        <!-- NOTE: all href attributes should match the div id from above -->
+        <a class="left carousel-control" href="#carousel-one-month" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-one-month" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div><!-- #carousel-one-month -->
+    </div><!-- .container -->
+
+    <!-- MARKETING ========== -->
+    <div class="container marketing">
+
+      <!-- MARKETING Featurette -->
+      <hr class="featurette-divider">
+      <div class="container">
+        <div class="row featurette row-centered">
+          <div class="col-md-7 col-centered">
+            <h2 class="featurette-heading">
+              HTML is
+              <span class="text-muted"> 100% Free</span>
+            </h2>
+            <p class="lead">
+              No gimmicks. No bull. HTML is brought to you for free by the W3C. It can be used from the comfort of your own home. And it works in the browser along with CSS and JavaScript. Use all three to make a kickass Website.
+            </p>
+          </div><!-- .col -->
+          <div class="col-md-5">
+            <img src="images/dog.jpg" alt="Dog">
+          </div><!-- .col -->
+        </div><!-- .row -->
+      </div><!-- .container -->
+
+      <!-- MARKETING Featurette -->
+      <hr class="featurette-divider">
+      <div class="container">
+        <div class="row featurette row-centered">
+          <div class="col-md-5">
+            <img src="images/chrome.jpg" alt="Chrome Wheel">
+          </div><!-- .col -->
+          <div class="col-md-7">
+            <h2>What's included with HTML?</h2>
+            <p>Tags to make words bold. Like a boss. And tons of CSS properties to style your page: .ninja { color: black; visibility: none; }</p>
+          </div><!-- .col -->
+        </div><!-- .row -->
+      </div><!-- .container -->
+
+      <!-- MARKETING Featurette -->
+      <hr class="featurette-divider">
+      <div class="container">
+        <div class="row featurette row-centered">
+          <h4>
+            <span class="text-muted">HTML is Trusted By 100,000+ Companies Including</span>
+          </h4>
+        </div><!-- .row -->
+      </div><!-- .container -->
+
+      <!-- MARKETING Featurette -->
+      <div class="container">
+        <div class="row featurette row-centered">
+          <div class="col-md-3">
+            <img src="images/company1.svg" alt="Bloomberg">
+          </div><!-- .col -->
+          <div class="col-md-3">
+            <img src="images/company2.svg" alt="Google">
+          </div><!-- .col -->
+          <div class="col-md-3">
+            <img src="images/company3.svg" alt="Y Combinator">
+          </div><!-- .col -->
+          <div class="col-md-3">
+            <img src="images/company4.svg" alt="Singularity University">
+          </div><!-- .col -->
+        </div><!-- .row -->
+      </div><!-- .container -->
+
+    </div><!-- .container marketing -->
+
+    <!-- FOOTER -->
+    <div class="container">
+      <div class="footer navbar-fixed-bottom">
+        <ul class="nav navbar-nav">
+          <li>Made with <a href="http://onemonth.com">One Month HTML</a></li>
+        </ul>
+      </div><!-- .footer -->
+    </div><!-- .container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 3000
+        })
+    </script>
+  </body>
+</html>
